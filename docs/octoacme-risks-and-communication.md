@@ -20,9 +20,10 @@ Maintain a simple table with:
 - Monitor: review at weekly syncs and update status
 
 ## Stakeholder Communication
-- Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
+- Identify stakeholder groups and communication needs (e.g., engineering, sales, support, Customer Success Manager)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- Customer Success Manager communicates release impact to end users
 
 ## Communication Templates
 Weekly Status Template:
@@ -39,4 +40,5 @@ Incident Communication
 
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- For security incidents, follow the security incident runbook and notify the Security Lead (on-call or primary)
+- For release or deployment issues, escalate to the DevOps/Release Engineer first, then to the Project Manager if unresolved

@@ -20,8 +20,9 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
+- Security scanning in CI (coordinated with Security Lead)
 - Manual QA for feature acceptance when needed
+- UX/UI Designer signs off on front-end acceptance criteria for user-facing features
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -38,3 +39,6 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] DevOps/Release Engineer has reviewed and maintains CI/CD pipeline configuration
+- [ ] Security Lead is engaged for any PRs touching security-sensitive components
+- [ ] Technical Writer is updating docs in parallel with feature development
